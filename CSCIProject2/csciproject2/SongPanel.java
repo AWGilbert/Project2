@@ -47,7 +47,7 @@ public class SongPanel extends JPanel
 		setBackground(Color.BLACK);
 		setPreferredSize(new Dimension(600, 450));
 		setLayout(null);
-		image = new ImageIcon(this.getClass().getResource("csciproject2/MusicImage.jpg"));
+		image = new ImageIcon(this.getClass().getResource("/csciproject2/MusicImage.jpg"));
 		
 		
 		JLabel lblSongName = new JLabel();
